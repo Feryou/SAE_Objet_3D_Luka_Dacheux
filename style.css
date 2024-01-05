@@ -1,0 +1,21 @@
+#button {
+    position: absolute;
+    top: 650px;
+    left: 813px;
+    padding: 10px 20px;
+    background-color: #2060ae;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+  }
+
+  #button:hover,
+  #button:focus {
+    background-color: rgb(5, 11, 52);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
